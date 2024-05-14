@@ -579,7 +579,7 @@ input, select, textarea {
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
 					width: calc(100vw - 15px) !important;
-					height: auto;
+					height: calc(100vw - 15px) !important;
 					margin: 2.5px;
 					box-shadow: 0 0 0 5px #ffffff;
 				}
@@ -608,7 +608,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main .item {
-				height: auto;
+				height: 10em;
 			}
 
 		}
